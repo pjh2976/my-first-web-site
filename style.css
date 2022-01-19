@@ -1,0 +1,39 @@
+a {
+  color : black;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  font-size : 50px;
+  border-bottom: 2px solid gray;
+  padding: 20px;
+  margin: 0;
+}
+.saw{
+  color: red;
+  text-decoration: underline;
+}
+ul {
+  border-right: 2px solid gray;
+  font-size:20px;
+  margin:0;
+  padding : 20px;
+}
+
+#grid{
+  display : grid;
+  grid-template-columns: 200px 1fr ;
+}
+#grid div{
+  padding :20px;
+  padding-top :0;
+}
+@media(max-width:800px){
+  #grid{
+    display : block;
+  }
+  ul{
+    border: none;
+  }
+
+}
